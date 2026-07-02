@@ -58,4 +58,5 @@ This became my first end-to-end AI automation project.
 - Contact discovery
 - AI generated personalized emails
 - n8n version of the workflow
+  
 - Multi-agent architecture with specialized LLMs
