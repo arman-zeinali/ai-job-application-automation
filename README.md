@@ -1,9 +1,16 @@
 # AI Job Application Automation
-An AI-powered workflow that automates tailoring job applications.
 
-Instead of manually spending 1–2 hours researching every company, tailoring my resume, rewriting it, creating a cover letter, organizing documents, and tracking applications, I built a workflow that automates most of the process.
+End-to-end AI workflow that transforms a job posting URL into tailored application documents and tracked job applications.
 
-# Architecture
+Built while transitioning from 7+ years in Real Estate sales into SaaS Sales.
+
+---
+
+## Architecture
+
+![AI Automation Pipeline](pipeline.png)
+
+The workflow begins with a job posting URL and automatically extracts the job description, evaluates the opportunity, generates tailored application documents, publishes them to Google Docs, and tracks the application in Airtable.
 Job URL
    │
    ▼
@@ -36,7 +43,9 @@ Create documents
 Airtable
 Track application
 
-# Tech Stack
+---
+
+## Tech Stack
 • Make
 • Airtable
 • Claude API
@@ -46,7 +55,9 @@ Track application
 • HTTP modules
 • JSON parsing
 
-# Features
+---
+
+## Features
 ✓ One-click application workflow
 ✓ Job description extraction
 ✓ Company evaluation
@@ -56,6 +67,8 @@ Track application
 ✓ Cover letter generation
 ✓ Google Docs generation
 ✓ Airtable tracking
+
+---
 
 ## Why I Built It
 Tailoring every application manually often took 1–2 hours.
