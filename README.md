@@ -10,39 +10,6 @@ Built while transitioning from 7+ years in Real Estate sales into SaaS Sales.
 
 ![AI Automation Pipeline](pipeline.png)
 
-The workflow begins with a job posting URL and automatically extracts the job description, evaluates the opportunity, generates tailored application documents, publishes them to Google Docs, and tracks the application in Airtable.
-Job URL
-   │
-   ▼
-Apify
-Extract job description
-   │
-   ▼
-Claude
-Evaluate company
-Score opportunity
-Choose best resume
-   │
-   ▼
-Claude
-Tailor resume
-   │
-   ▼
-ChatGPT
-Improve wording & readability
-   │
-   ▼
-Claude + ChatGPT
-Generate cover letter
-   │
-   ▼
-Google Docs
-Create documents
-   │
-   ▼
-Airtable
-Track application
-
 ---
 
 ## Tech Stack
