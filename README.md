@@ -10,6 +10,8 @@ Built while transitioning from 7+ years in Real Estate sales into SaaS Sales.
 
 ![AI Automation Pipeline](pipeline.png)
 
+The workflow starts with a job posting URL and automatically extracts the job description, evaluates the opportunity, selects the most appropriate resume version, generates a tailored resume and cover letter, publishes both documents to Google Docs, and tracks every application in Airtable.
+
 ---
 
 ## Tech Stack
